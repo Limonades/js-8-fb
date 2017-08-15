@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>FancyBox</title>
+		<link rel="shortcut icon" href="img/title.png" type="image/png">
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/style.css">
+		<link  href="styles/jquery.fancybox.min.css" rel="stylesheet">
+
+	</head>
+	<body>
+		<div class="container">
+
+		<div class="button-group filter-button-group">
+		    <button class="button is-checked" data-filter="*">show all</button>
+		    <button class="button" data-filter=".vel">vel</button>
+		    <button class="button" data-filter=".auto">auto</button>
+		    <button class="button" data-filter=".air">air</button>
+		</div>
+
+		<div class="grid">
+			<a class="element-item auto" data-fancybox="group1" href="img/max-auto-1.jpg" data-category="auto">
+			    <img src="img/min-auto-1.jpg">
+			</a>
+			<a class="element-item vel" data-fancybox="group2" href="img/max-vel-1.jpg" data-category="vel">
+			    <img src="img/min-vel-1.jpg">
+			</a>
+			<a class="element-item air" data-fancybox="group3" href="img/max-air-1.jpg" data-category="air">
+			    <img src="img/min-air-1.jpg">
+			</a>
+
+
+			<a class="element-item auto" data-fancybox="group1" href="img/max-auto-2.jpg" data-category="auto">
+			    <img src="img/min-auto-2.jpg">
+			</a>
+			<a class="element-item vel" data-fancybox="group2" href="img/max-vel-2.jpg" data-category="vel">
+			    <img src="img/min-vel-2.jpg">
+			</a>
+			<a class="element-item air" data-fancybox="group3" href="img/max-air-2.jpg" data-category="air">
+			    <img src="img/min-air-2.jpg">
+			</a>
+
+
+			<a class="element-item auto" data-fancybox="group1" href="img/max-auto-3.jpg" data-category="auto">
+			    <img src="img/min-auto-3.jpg">
+			</a>
+			<a class="element-item vel" data-fancybox="group2" href="img/max-vel-3.jpg" data-category="vel">
+			    <img src="img/min-vel-3.jpg">
+			</a>
+			<a class="element-item air" data-fancybox="group3" href="img/max-air-3.jpg" data-category="air">
+			    <img src="img/min-air-3.jpg">
+			</a>
+
+
+			<a class="element-item auto" data-fancybox="group1" href="img/max-auto-4.jpg" data-category="auto">
+			    <img src="img/min-auto-4.jpg">
+			</a>
+			<a class="element-item vel" data-fancybox="group2" href="img/max-vel-4.jpg" data-category="vel">
+			    <img src="img/min-vel-4.jpg">
+			</a>
+			<a class="element-item air" data-fancybox="group3" href="img/max-air-4.jpg" data-category="air">
+			    <img src="img/min-air-4.jpg">
+			</a>
+		</div>
+
+
+		<h2 class="pocentry">fancyBox - Iframe</h2>
+
+		<p class="datasrc">
+
+		  <a class="button is-checked lala" data-fancybox data-type="iframe" data-src="https://academy.beetroot.se/" href="javascript:;">
+		    Betroot Academy
+		  </a>
+
+		  <a class="button is-checked" data-fancybox data-type="iframe" data-src="https://mozilla.github.io/pdf.js/web/viewer.html" href="javascript:;">
+		     Sample PDF file
+		  </a>
+		  
+		</p>
+
+		<h2 class="pocentry">fancyBox- Embedding</h2>
+
+		<ul class="list-embedding">
+		  <li>
+		    <a class="button is-checked" data-fancybox href="https://www.youtube.com/watch?v=uSD4vsh1zDA">
+		      YouTube video
+		    </a>
+		  </li>
+		  <li>
+		    <a class="button is-checked" data-fancybox href="https://www.google.ru/maps/place/%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0,+65000/@46.4598865,30.571703,11z/data=!3m1!4b1!4m5!3m4!1s0x40c6318a0b864c43:0x129f8fe28cf2176c!8m2!3d46.482526!4d30.7233095">
+		      Google Maps
+		    </a>
+		  </li>
+		  <li>
+		    <a class="button is-checked" data-fancybox href="https://www.instagram.com/p/BUzkkjiACzJ/?hl=ru&taken-by=oswetnose" data-caption="<span title=&quot;Edited&quot;>Such a nice cat ✨🎈<br>My sibirian friend.<br><a href=&quot;https://www.instagram.com/oswetnose/&quot;>@oswetnose</a></span>">
+		      Instagram photo
+		    </a>
+		  </li>
+		</ul>
+
+		</div>
+	
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
+
+
